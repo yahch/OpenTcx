@@ -1,5 +1,5 @@
 
-##Garmin Tck for .net
+##Garmin Tcx for .net
 
 ---
 

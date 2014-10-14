@@ -15,7 +15,7 @@ namespace OpenTcx
         /// </summary>
         /// <param name="tckFile"></param>
         /// <param name="callback"></param>
-        public void AnalyzeTckFile(string tckFile,Action<Entities.TrainingCenterDatabase_t,System.Exception> callback)
+        public void AnalyzeTcxFile(string tckFile,Action<Entities.TrainingCenterDatabase_t,System.Exception> callback)
         {
             Entities.TrainingCenterDatabase_t data = null;
             System.Exception ex = null;
