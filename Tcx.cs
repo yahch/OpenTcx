@@ -36,6 +36,25 @@ namespace OpenTcx
             callback(data, ex);
         }
 
+        public void GenerateTcx(Entities.TrainingCenterDatabase_t data, Action<string, System.Exception> callback)
+        {
+            System.Exception exp = null;
+            string tck = null;
+            try
+            {
+                XmlSerializer xs = new XmlSerializer(typeof(Entities.TrainingCenterDatabase_t));
+                StringWriter sw = new StringWriter();
+                xs.Serialize(sw, data);
+                tck = sw.GetStringBuilder().ToString();
+            }
+            catch (Exception ex)
+            {
+                exp = ex;
+            }
+            callback(tck, exp);
+
+        }
+
         /// <summary>
         /// 验证Tcx有效性
         /// </summary>

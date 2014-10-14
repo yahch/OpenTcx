@@ -3,7 +3,7 @@
 
 ---
 
-Used for analyze Garmin tcx file.
+Used for analyze and generate Garmin tcx file.
 
 ###sample:
 
