@@ -3,7 +3,7 @@
 
 ---
 
-Used for analyze Garmin tck file.
+Used for analyze Garmin tcx file.
 
 ###sample:
 
