@@ -2,6 +2,14 @@
 
 > Used for analyze and generate Garmin tcx file.
 
+##### Platforms
+
+✅ .NET Framework 3.5  
+✅ .NET Framework 4.0  
+✅ .NET Framework 4.5  
+✅ .NET Framework 4.8  
+✅ .NET Standard 2.0  
+
 ##### Useage
 
 ```
