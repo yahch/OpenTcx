@@ -1,16 +1,4 @@
-# OpenTcx
-
-> Used for analyze and generate Garmin tcx file.
-
-##### Useage
-
-```
-PM> Install-Package OpenTcx -Version 1.0.0
-```
-
-##### Sample
-```cs
-using System;
+﻿using System;
 
 namespace OpenTcx.Test
 {
@@ -32,4 +20,3 @@ namespace OpenTcx.Test
         }
     }
 }
-```

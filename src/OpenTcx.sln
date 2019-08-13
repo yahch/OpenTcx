@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTcx", "OpenTcx\OpenTcx.csproj", "{E67158E1-CD2E-496B-B385-3AAB50C08F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTcx.Test", "OpenTcx.Test\OpenTcx.Test.csproj", "{6C11C497-5041-4E1C-A029-42648DB3B4F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E67158E1-CD2E-496B-B385-3AAB50C08F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67158E1-CD2E-496B-B385-3AAB50C08F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67158E1-CD2E-496B-B385-3AAB50C08F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67158E1-CD2E-496B-B385-3AAB50C08F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C11C497-5041-4E1C-A029-42648DB3B4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C11C497-5041-4E1C-A029-42648DB3B4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C11C497-5041-4E1C-A029-42648DB3B4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C11C497-5041-4E1C-A029-42648DB3B4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E86EF7CD-EE84-4552-B526-DC22314669FE}
+	EndGlobalSection
+EndGlobal
